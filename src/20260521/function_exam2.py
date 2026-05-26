@@ -35,7 +35,7 @@ def DataControl():
     print('gdata: ', gdata)
 
 # 전역 공간에 등록된 변수 값을 수정하는 방법 두가지.
-# 1. return을 활용. 
+# 1. return을 활용.
 # 2. global 키워드
     
 

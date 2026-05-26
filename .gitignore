@@ -24,6 +24,10 @@ dist/
 .DS_Store
 Thumbs.db
 
+# Excel temp/lock files
+~$*.xlsx
+~$*.xls
+
 # Environment variables
 .env
 .env.local
