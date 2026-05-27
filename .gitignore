@@ -3,6 +3,20 @@
 venv/
 env/
 
+# Project-local virtual environments (venv unpacked directly in the project folder)
+python_basic/Include/
+python_basic/Lib/
+python_basic/Scripts/
+python_basic/share/
+python_basic/etc/
+python_basic/pyvenv.cfg
+data_preprossesing/Include/
+data_preprossesing/Lib/
+data_preprossesing/Scripts/
+data_preprossesing/share/
+data_preprossesing/etc/
+data_preprossesing/pyvenv.cfg
+
 # Python cache
 __pycache__/
 *.pyc
