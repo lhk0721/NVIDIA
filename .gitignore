@@ -29,6 +29,10 @@ dist/
 *.egg-info/
 *.spec
 
+# Installer / build binaries
+*.exe
+*.msi
+
 # IDE / Editor
 .vscode/
 .idea/
