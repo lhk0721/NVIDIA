@@ -1,6 +1,6 @@
 # 2026-05-26 NumPy 배열·연산·집계 복습 자료
 
-> 수업 필기(`numpy_exam1.py`, `numpy_aristhmatic.py`, `numpy_innerProduct.py`)를 주제별로 재구성하고 설명을 덧붙였습니다.
+> 수업 필기(`numpy_exam1.py`, `numpy_aristhmatic.py`, `numpy_innerProduct.py`, `practice.py`)를 주제별로 재구성하고 설명을 덧붙였습니다.
 
 ---
 
@@ -172,6 +172,16 @@ df.iloc[1, 2]   # 수치 인덱스 접근 (1행 2열)
 
 - NumPy 는 **수치 인덱스만**, pandas 는 **라벨 + 수치** 모두 지원.
 - 배열을 빨리 엑셀로 저장하고 싶으면 `pd.DataFrame(배열).to_excel(...)`.
+
+### 3-5. 실습 메모 — `DataFrame` 생성 인자 (`practice.py`)
+
+```python
+arr = np.arange(1, 13).reshape((3, 4))
+df = pd.DataFrame(arr, columns=False, index=False)   # ⚠️ 실험: 잘못된 인자
+```
+
+- `columns` / `index` 에는 **라벨 목록(리스트)** 을 주는 자리지 `True/False` 를 주는 자리가 아니다 → 의도대로 동작하지 않는다.
+- 자동 인덱스를 원하면 그냥 **생략**(`pd.DataFrame(arr)`). 라벨을 주려면 `columns=['a','b','c','d']`, `index=[...]` 처럼 **리스트**로. (다음 날 pandas 정식 학습에서 이어짐)
 
 ---
 
