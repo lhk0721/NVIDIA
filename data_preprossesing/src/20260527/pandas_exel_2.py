@@ -3,7 +3,7 @@ import pandas as pd
 # import matplotlib.pyplot as plt # 차트 시각화 라이브러리
 
 ## pandas로 편하게 읽기
-my_df = pd.read_csv('src\\20260527\서울특별시_지하철 승하차 승객수.csv', encoding='CP949')
+my_df = pd.read_csv(r'C:\Users\25\Documents\github\python_project\dataset\서울특별시_지하철 승하차 승객수.csv', encoding='CP949')
 # print(my_df.head())
 print(my_df['호선_명칭'].unique())
 

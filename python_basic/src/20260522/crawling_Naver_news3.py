@@ -1,7 +1,7 @@
 import pandas as pd
 import re
 
-newsDf = pd.read_excel("naverNews.xlsx")
+newsDf = pd.read_excel(r"C:\Users\25\Documents\github\python_project\dataset\naverNews.xlsx")
 
 print(newsDf)
 
@@ -34,4 +34,4 @@ print('='*80)
 
 print(newsDf)
 
-newsDf.to_excel("naverNews_filtering.xlsx",index=False)
+newsDf.to_excel(r"C:\Users\25\Documents\github\python_project\dataset\naverNews_filtering.xlsx",index=False)

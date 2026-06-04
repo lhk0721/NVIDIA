@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv(r'C:\Users\25\Documents\github\python_project\data_preprossesing\src\20260601\tips.csv') # csv 파일을 읽어서 데이터프레임 객체로 만들어준다.
+df = pd.read_csv(r'C:\Users\25\Documents\github\python_project\dataset\tips.csv') # csv 파일을 읽어서 데이터프레임 객체로 만들어준다.
 
 # print(df)
 # print(df.info)

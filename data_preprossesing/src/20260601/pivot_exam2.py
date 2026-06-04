@@ -31,7 +31,7 @@ pd.set_option('max_colwidth', 1000)
 np.set_printoptions(precision=3)
 
 
-df = pd.read_csv(r'C:\Users\25\Documents\github\python_project\data_preprossesing\src\20260601\tips.csv')
+df = pd.read_csv(r'C:\Users\25\Documents\github\python_project\dataset\tips.csv')
 
 # print(df.head(5))
 #    total_bill   tip  gender smoker  day    time  size

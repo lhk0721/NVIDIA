@@ -28,7 +28,7 @@ else:
 	print("Unknon system...")
 
 ##
-df = pd.read_excel('src\\20260528\youtube_rank_1000.xlsx')#0index_col=0) #
+df = pd.read_excel(r'C:\Users\25\Documents\github\python_project\dataset\youtube_rank_1000.xlsx')#0index_col=0) #
 # df['Video'].astype('int64') 특정 컬럼 데이터를 일괄 타입변환
 ##
 def Shorter(arg):

@@ -32,7 +32,7 @@ pd.set_option('max_colwidth', 1000)
 np.set_printoptions(precision=3)
 
 
-df = pd.read_excel(r'C:\Users\25\Documents\github\python_project\data_preprossesing\src\20260601\반도체_제어_이력.xlsx')
+df = pd.read_excel(r'C:\Users\25\Documents\github\python_project\dataset\반도체_제어_이력.xlsx')
 
 # print(df.head(5))
 # print(df.info())

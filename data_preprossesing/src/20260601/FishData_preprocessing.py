@@ -33,7 +33,7 @@ np.set_printoptions(precision=3)
 
 ##
 
-df = pd.read_csv(r'C:\Users\25\Documents\github\python_project\data_preprossesing\src\20260601\Fish.csv')
+df = pd.read_csv(r'C:\Users\25\Documents\github\python_project\dataset\Fish.csv')
 
 # df.info()
 # <class 'pandas.core.frame.DataFrame'>

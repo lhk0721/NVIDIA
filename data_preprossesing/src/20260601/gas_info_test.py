@@ -13,7 +13,7 @@ def prinf_df(df):
 
 
 ## 
-df = pd.read_csv(r'C:\Users\25\Documents\github\python_project\data_preprossesing\src\20260601\seoul_keumchun_gas_info.csv',encoding='CP949',index_col=0)
+df = pd.read_csv(r'C:\Users\25\Documents\github\python_project\dataset\seoul_keumchun_gas_info.csv',encoding='CP949',index_col=0)
 
 # df.info()
 # <class 'pandas.core.frame.DataFrame'>

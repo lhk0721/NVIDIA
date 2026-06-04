@@ -31,4 +31,4 @@ newsDataList = [item.text for item in newsTitleList]
 myNewsDf = pd.DataFrame(newsDataList, columns=['뉴스제목'])
 # print(myNewsDf)
 
-myNewsDf.to_excel("naverNews.xlsx", index = False)
+myNewsDf.to_excel(r"C:\Users\25\Documents\github\python_project\dataset\naverNews.xlsx", index = False)

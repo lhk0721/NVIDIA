@@ -4,6 +4,17 @@ venv/
 env/
 
 # Project-local virtual environments (venv unpacked directly in the project folder)
+# Linux/WSL venv (deeplearning project — venv kept in WSL home, but ignore if ever copied in)
+deeplearning/bin/
+deeplearning/lib/
+deeplearning/lib64
+deeplearning/include/
+deeplearning/share/
+deeplearning/pyvenv.cfg
+# Generated plot outputs
+deeplearning/**/*.jpeg
+deeplearning/**/*.png
+
 python_basic/Include/
 python_basic/Lib/
 python_basic/Scripts/

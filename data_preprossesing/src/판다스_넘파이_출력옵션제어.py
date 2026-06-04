@@ -5,7 +5,7 @@ pd.set_option('display.max_rows',1000)
 pd.set_option('display.max_columns', 500)
 pd.set_option('display.width',1000)
 pd.set_option('max_colwidth', 1000)
-#pd.set_option('display.colheader_justify','center')  # 컬럼 중앙 출력
+pd.set_option('display.colheader_justify','center')  # 컬럼 중앙 출력
 pd.set_option('display.float_format', '{:.3f}'.format) #  float 형식 소숫점 3자리 표현
 
 # 소숫점 이하 3자리까지 출력

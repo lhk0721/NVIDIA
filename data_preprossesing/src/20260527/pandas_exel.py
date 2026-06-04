@@ -3,7 +3,7 @@ import pandas as pd
 # import matplotlib.pyplot as plt # 차트 시각화 라이브러리
 
 ## pandas로 편하게 읽기
-popdf = pd.read_excel('src\\20260527\population_in_seoul.xls') # 엑셀파일 읽어서 df 객체로 생성
+popdf = pd.read_excel(r'C:\Users\25\Documents\github\python_project\dataset\population_in_seoul.xls') # 엑셀파일 읽어서 df 객체로 생성
 # popdf.dropna(inplace=True)
 # print(popdf)
 

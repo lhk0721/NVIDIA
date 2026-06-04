@@ -33,7 +33,7 @@ pd.set_option('max_colwidth', 1000)
 
 
 ##
-df = pd.read_csv('.\src\\20260528\\tips.csv', encoding='CP949')
+df = pd.read_csv(r'C:\Users\25\Documents\github\python_project\dataset\tips.csv', encoding='CP949')
 
 df['gender'] = df['gender'].map({'Male':0, 'Female':1})
 

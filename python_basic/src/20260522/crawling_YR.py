@@ -42,6 +42,6 @@ datalist = [x.find_all('a')[0].text.strip() for x in data]
 
 ##
 mydf = pd.DataFrame(datalist,columns=['제목'])
-mydf.to_excel("youtubedata.xlsx",index=False)
+mydf.to_excel(r"C:\Users\25\Documents\github\python_project\dataset\youtubedata.xlsx",index=False)
 
 # print(mydf)

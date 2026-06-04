@@ -16,7 +16,7 @@ else:
 	print("Unknon system...")
 
 ##
-df = pd.read_excel('src\\20260528\youtube_rank_1000.xlsx',index_col=0)
+df = pd.read_excel(r'C:\Users\25\Documents\github\python_project\dataset\youtube_rank_1000.xlsx',index_col=0)
 # df.info()
 # print(df.head(10))
 

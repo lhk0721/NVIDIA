@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_excel(r'C:\Users\25\Documents\github\python_project\data_preprossesing\src\20260601\teacher_list_pivot_exam.xlsx')
+df = pd.read_excel(r'C:\Users\25\Documents\github\python_project\dataset\teacher_list_pivot_exam.xlsx')
 
 # print(df)
 #     카테고리                       과정명  강의시수  강사명
@@ -38,7 +38,7 @@ pvDf = df.pivot_table(index='과정명', columns='강사명', values='강의시�
 # Linux system Programming   25   30  120
 
 ##
-df2 = pd.read_excel(r'C:\Users\25\Documents\github\python_project\data_preprossesing\src\20260601\teacher_list_pivot_exam_1.xlsx') # 중복데이터를 지우면 피봇도 된다.
+df2 = pd.read_excel(r'C:\Users\25\Documents\github\python_project\dataset\teacher_list_pivot_exam_1.xlsx') # 중복데이터를 지우면 피봇도 된다.
 
 # print(df2)
 #     카테고리                       과정명  강의시수  강사명

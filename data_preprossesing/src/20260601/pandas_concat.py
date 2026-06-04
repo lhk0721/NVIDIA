@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv(r'C:\Users\25\Documents\github\python_project\data_preprossesing\src\20260601\tips.csv')
+df = pd.read_csv(r'C:\Users\25\Documents\github\python_project\dataset\tips.csv')
 
 # print(df['day'].unique())
 subset1 = df.loc[df['day'].isin(['Sat','Fri']),:]

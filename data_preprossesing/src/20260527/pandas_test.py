@@ -34,7 +34,7 @@ df = pd.DataFrame(dictData, index=['kor', 'eng', 'math', 'music', 'science'])
 ## 7호선, 
 # subset = df.loc[df['Kim'] >= 70,'Kim':'Park'].copy()
 
-my_df = pd.read_csv('src\\20260527\서울특별시_지하철 승하차 승객수.csv', encoding='CP949')
+my_df = pd.read_csv(r'C:\Users\25\Documents\github\python_project\dataset\서울특별시_지하철 승하차 승객수.csv', encoding='CP949')
 
 
 my_df['기준_날짜'] = pd.to_datetime(my_df['기준_날짜']) # 문자열 항목을 시계열 데이터로 바꿔라.

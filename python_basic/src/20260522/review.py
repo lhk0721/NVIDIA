@@ -40,7 +40,7 @@ print(mydf)
 # 4        happy
 # 5         test
 # 6         test
-mydf.to_excel("pythondata.xlsx", index=False ) #1열 idx 없어짐
+mydf.to_excel(r"C:\Users\25\Documents\github\python_project\dataset\pythondata.xlsx", index=False ) #1열 idx 없어짐
 
 
 

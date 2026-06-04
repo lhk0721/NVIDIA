@@ -9,4 +9,4 @@ print(scoredict) # 허나 여전히 dict로 보인다.
 mydf = pd.DataFrame(scoredict) #메모리에 떠있는 데이터
 print(mydf)
 
-mydf.to_excel('mydf.xlsx') # 데이터프레임 객체를 엑셀 데이터로 저장
+mydf.to_excel(r'C:\Users\25\Documents\github\python_project\dataset\mydf.xlsx') # 데이터프레임 객체를 엑셀 데이터로 저장

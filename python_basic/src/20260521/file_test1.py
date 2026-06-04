@@ -33,7 +33,7 @@ result = FindCharFunc(str,'R')
 ## Csv 파일은 , 로 구분되는 텍스트파일이라고 보면 된다.
 import pandas as pd
 
-data = pd.read_csv('Health_info.csv')
+data = pd.read_csv(r'C:\Users\25\Documents\github\python_project\dataset\Health_info.csv')
 # print(data) # 2차원 배열 형태의 dataFrame 데이터로 반환해준다.
 # print(data.info())
 

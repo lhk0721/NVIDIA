@@ -7,7 +7,7 @@ pd.set_option('display.width',1000)
 pd.set_option('max_colwidth', 1000)
 
 ##
-df = pd.read_csv(r'C:\Users\25\Documents\github\python_project\data_preprossesing\src\20260601\tips.csv')
+df = pd.read_csv(r'C:\Users\25\Documents\github\python_project\dataset\tips.csv')
 print(df.head(5))
 print('='*80)
 
